@@ -5,12 +5,12 @@ namespace TwitterCloneApi\src\Bean;
 class Tweet
 {
     private string $tweet;
-    private \DateTime $dateWritten;
+    private \DateTime $writtenAt;
 
-    public function __construct($tweet, $dateWritten)
+    public function __construct($tweet, $writtenAt)
     {
         $this->tweet = $tweet;
-        $this->dateWritten = $dateWritten;
+        $this->writtenAt = $writtenAt;
     }
 
     public function getTweet(): string
@@ -18,8 +18,8 @@ class Tweet
         return $this->tweet;
     }
 
-    public function getDateWritten(): \DateTime
+    public function getWrittenAt(): \DateTime
     {
-        return $this->dateWritten;
+        return $this->writtenAt;
     }
 }

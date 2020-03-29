@@ -25,7 +25,7 @@ final class TweetTest extends TestCase
     {
         $this->assertEquals(
             '29-03-2020 15:09:00',
-            $this->tweet->getDateWritten()->format('d-m-Y H:i:s')
+            $this->tweet->getWrittenAt()->format('d-m-Y H:i:s')
         );
     }
 }
