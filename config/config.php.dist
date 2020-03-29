@@ -1,0 +1,17 @@
+<?php
+
+define('CONFIG', [
+    'databases' => [
+        'mysql' => [
+            'driver' => 'mysql',
+            'host' => 'mysql',
+            'database' => 'twitter_clone',
+            'username' => '',
+            'password' => '',
+            'charset'  => 'utf8',
+            'collation' => 'utf8_unicode_ci',
+            'prefix'    => '',
+            'port'     => '3306'
+        ],
+    ]
+]);

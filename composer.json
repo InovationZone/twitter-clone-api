@@ -15,12 +15,19 @@
     "autoload": {
         "psr-4": {
             "TwitterCloneApi\\src\\": "src/"
-        }
+        },
+
+        "files": [
+            "config/config.php"
+        ]
     },
 
     "autoload-dev": {
         "psr-4": {
             "Tests\\": "tests/"
         }
+    },
+    "require": {
+        "robmorgan/phinx": "^0.11.4"
     }
 }
