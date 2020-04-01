@@ -10,9 +10,12 @@
 
     "require": {
         "robmorgan/phinx": "^0.11.4",
-        "illuminate/database": "^5.3",
-        "illuminate/events": "^5.3",
-        "symfony/var-dumper": "^5.0"
+        "symfony/var-dumper": "^5.0",
+        "illuminate/database": "^7.3",
+        "illuminate/routing": "^7.3",
+        "illuminate/events": "^7.3",
+        "illuminate/translation": "^7.3",
+        "illuminate/validation": "^7.3"
     },
 
     "require-dev": {
@@ -33,13 +36,5 @@
         "psr-4": {
             "Tests\\": "tests/"
         }
-    },
-    
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://packagist.org"
-        },
-        { "packagist": false }
-    ]
+    }
 }
